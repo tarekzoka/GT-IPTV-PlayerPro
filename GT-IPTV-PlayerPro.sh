@@ -1,5 +1,5 @@
 #!/bin/bash
-##wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GT-IPTV-PlayerPro/GT-IPTV-PlayerPro.sh | /bin/sh
+##wget --no-check-certificate -O - https://github.com/tarekzoka/raw/refs/heads/main/GT-IPTV-PlayerPro/GT-IPTV-PlayerPro.sh | /bin/sh
 ##################################
 echo "Removing previous version of GT-IPTV-PlayerPro..."
 sleep 2
@@ -18,7 +18,7 @@ sleep 2
 
 cd /tmp || exit
 
-curl -k -L --retry 3 --connect-timeout 55 --max-time 555 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/GT-IPTV-PlayerPro/GT-IPTV-PlayerPro.tar.gz" -o /tmp/GT-IPTV-PlayerPro.tar.gz
+curl -k -L --retry 3 --connect-timeout 55 --max-time 555 "https://github.com/tarekzoka/raw/refs/heads/main/GT-IPTV-PlayerPro/GT-IPTV-PlayerPro.tar.gz" -o /tmp/GT-IPTV-PlayerPro.tar.gz
 
 if [ ! -s /tmp/GT-IPTV-PlayerPro.tar.gz ]; then
     echo "Error: Download failed or file is empty!"
